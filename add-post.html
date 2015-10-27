@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Single Post | Welcome</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Include Stylesheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Include JQuery -->
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <!-- Modernizr -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- Main JavaScript -->
+        <script src="js/main.js"></script>
+
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <div id="branding">
+                    <a href="index.html"><img src="img/logo-blog.png" alt="The Blog"></a>
+                    <!--<h1>The Blog</h1>-->
+                </div><!-- Branding -->
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="single-post.html">Single Post</a></li>
+                        <li><a href="add-post.html">Add Post</a></li>
+                    </ul>
+                </nav>
+            </div><!-- Container -->  
+        </header>
+        
+        <div class="container">
+            <div id="sidebar">
+                <div class="search">
+                    <form>
+                        <input type="search" placeholder="Search for blog posts"><input type="image" src="img/search-mod.png" alt="Search">
+                    </form>
+                </div><!-- Search-->
+                <div class="clearfix"></div>
+                <nav id="sub-nav">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">SEO & Marketing</a></li>
+                        <li><a href="#">Cloud & Hosting</a></li>
+                        <li><a href="#">Software & Gadgets</a></li>
+                    </ul>
+                </nav>
+                 
+            </div><!-- Side bar -->
+            
+            <section id="content">
+                <div class="add-form">
+                    <h2>Add Post</h2>
+                    <form>
+                        <p>
+                            <label>Post Title: </label>
+                            <input type="text">
+                        </p>
+                        <p>
+                            <label>Category: </label>
+                            <br>
+                            <select name="category">
+                            <option value="">Web Development</option>
+                            <option value="">Design</option>
+                            <option value="">SEO & Marketing</option>
+                            <option value="">Cloud & Hosting</option>
+                            <option value="">Software & Gadgets</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Text: </label>
+                            <textarea></textarea>
+                        </p>
+                        <p>
+                            <label>Select Image: </label>
+                            <input type="file">
+                        </p>
+                        <p>
+                            <button>Add Post</button>
+                        </p>
+                    </form>
+                </div><!-- add form -->
+                <div class="push"></div>
+            </section>
+            <div class="clearfix"></div>
+        </div><!-- Container -->
+        <footer id="main-footer">
+            <div class="container">
+                <div class="footer-column">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact US</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-nav copy"><p>Copyright &copy; 2015, The Blog</p></nav>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
